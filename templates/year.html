@@ -1,0 +1,35 @@
+
+<html>
+<head>
+  <title>Life Expectancy Lab</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <h1>Life Expectancy Lab - Derek Tang</h1>
+  <h2>Year: {{year}}</h2>
+
+  <div id="north_america">
+    {% include 'north_america.svg' %}
+  </div>
+
+  <footer>
+    All data from <a href="https://data.worldbank.org/indicator/SP.DYN.LE00.IN?locations=MX-US-CA"> The World Bank</a>.
+  </footer>
+</body>
+
+<script>
+  canada = document.getElementsByClassName("Canada")
+  for (state of canada) {
+    state.style.fill = 'hsl(44, 0%, {{canada}}%)'
+  }
+  us = document.getElementsByClassName("US")
+  for (state of us) {
+    state.style.fill = 'hsl(44, 0%, {{us}}%)'
+  }
+  mexico = document.getElementsByClassName("Mexico")
+  for (state of mexico) {
+    state.style.fill = 'hsl(44, 0%, {{mexico}}%)'
+  }
+</script>
+</html>

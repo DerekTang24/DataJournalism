@@ -1,0 +1,44 @@
+body{
+  background-color: white;
+}
+
+svg{
+  border-style: solid;
+  border-width: 1px;
+}
+
+.us {
+  stroke:blue;
+}
+
+.us:hover {
+  stroke: pink;
+  fill: pink;
+}
+
+.canada {
+  stroke:red;
+}
+
+.canada:hover {
+  stroke: pink;
+  fill: pink;
+}
+
+.mexico {
+  stroke:green;
+}
+
+.mexico:hover {
+  stroke: pink;
+  fill: pink;
+}
+
+.average {
+  stroke:purple;
+}
+
+.average:hover {
+  stroke: pink;
+  fill: pink;
+}
