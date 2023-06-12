@@ -53,21 +53,23 @@
         </ul>
       </div>
     </nav>
-    <div class="macrocontainer" style="text-align: center">
-      <h1>Macro</h1>
-      <h5>US Energy Production In MWh</h5>
-      <div display="block" overflow="auto" id="usa">
-        {% include 'usa.svg' %}
+    <div>
+      <div class="macrocontainer" style="text-align: center">
+        <h1>Macro</h1>
+        <h5>US Energy Production In MWh</h5>
+        <div display="block" overflow="auto" id="usa">
+          {% include 'usa.svg' %}
+        </div>
       </div>
-    </div>
-    <div style="width: 300px; margin-left: 50px">
-      <h1>Takeaways:</h1>
-      <h6>
-        1. US states have a wide range of total energy production which has to
-        be represented on a logarithmic scale.
-      </h6>
-      <h6>2. The US has a variety of means of producing energy.</h6>
-      <h6>3. Energy production type depends on geographic condition.</h6>
+      <div style="width:300px; position: absolute; bottom: 10%; margin-left: 50px; margin-top: 20%">
+        <h1>Takeaways:</h1>
+        <h6>
+          1. US states have a wide range of total energy production which has to
+          be represented on a logarithmic scale.
+        </h6>
+        <h6>2. The US has a variety of means of producing energy.</h6>
+        <h6>3. Energy production type depends on geographic condition.</h6>
+      </div>
     </div>
     <footer class="footer">
       All data from
@@ -116,4 +118,3 @@
       }
     </script>
   </body>
-</html>

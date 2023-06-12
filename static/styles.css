@@ -39,7 +39,7 @@ nav {
 }
 
 .macrocontainer {
-  padding-top: 6%;
+  padding-top: 8rem;
   transform: scale(2);
   flex-direction: column;
 }
@@ -51,6 +51,5 @@ nav {
 
 .usa {
   margin-top: 20% !important;
-  stroke: blue;
   z-index: -1;
 }
