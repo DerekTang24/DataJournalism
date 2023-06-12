@@ -1,3 +1,2 @@
-import json
-with open(r"data.json", "w", encoding="utf-8") as jsonf:
-    jsonf. 
+import math
+print(105 - math.log(625000000 / 1000000) * 15.8707)
